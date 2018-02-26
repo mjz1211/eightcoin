@@ -53,7 +53,7 @@ namespace parameters {
   const uint64_t MAX_TRANSACTION_SIZE_LIMIT                    = CRYPTONOTE_BLOCK_GRANTED_FULL_REWARD_ZONE * 125 / 100 - CRYPTONOTE_COINBASE_BLOB_RESERVED_SIZE;
   const uint64_t DEFAULT_FEE                                   = MINIMUM_FEE;
 
-  const uint64_t DIFFICULTY_TARGET                             = 320; // seconds
+  const uint64_t DIFFICULTY_TARGET                             = 120; // seconds
   const uint64_t EXPECTED_NUMBER_OF_BLOCKS_PER_DAY             = 24 * 60 * 60 / DIFFICULTY_TARGET;
   const size_t   DIFFICULTY_WINDOW                             = 50; // blocks
   const size_t   DIFFICULTY_CUT                                = 5;  // timestamps to cut after sorting
@@ -109,7 +109,7 @@ namespace parameters {
   const uint64_t REWARD_INCREASE_INTERVAL                      = (UINT64_C(2640));
 
 
-const char     CRYPTONOTE_NAME[]                             = "Mushi";
+const char     CRYPTONOTE_NAME[]                             = "Mjzcoin";
 const char     GENESIS_COINBASE_TX_HEX[]                     = "010a01ff0001904e029b2e4c0281c0b02e7c53291a94d1d0cbff8883f8024f5142ee494ffbbd08807121013f10b20e46406abdcedb02efdce78bc954cff022b67ebab10a8b7eec1954e74e";
 const uint32_t GENESIS_NONCE                                 = 70;
 const uint64_t GENESIS_TIMESTAMP                             = 1515479625;
